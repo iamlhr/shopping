@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>丁香菇凉购物网站注册</title>
+    <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="flat/aero.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+    <div class="register">
+        <div class="r-logo">
+            <img src="img/logo.png" alt=""/>
+        </div>
+        <h2 class="title">注册丁香菇凉 Clove 账号</h2>
+        <form action="">
+            <div class="username">
+                <i class="fa fa-user"></i><input type="text" placeholder="手机号/邮箱"/>
+            </div>
+            <div class="username">
+                <i class="fa fa-lock"></i><input type="password" placeholder="密码"/>
+            </div>
+            <input class="regBtn" type="button" value="立即注册">
+        </form>
+        <div class="icks-div">
+            <input type="checkbox" id="ick" class="ick"/>
+            <span>注册帐号即表示您同意并愿意遵守丁香 <a href="#">用户协议</a> 和 <a href="#">用户协议</a></span>
+        </div>
+    </div>
+
+    <!--<div class="unfooter">-->
+        <!--<span>丁香菇凉版权所有-川ICP备10046444-京公网安备11010802020134号-京ICP证110507号</span>-->
+    <!--</div>-->
+</body>
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/icheck.js"></script>
+<script>
+    $(function(){
+        $('#ick').iCheck({
+            checkboxClass: 'icheckbox_flat-aero',
+            radioClass: 'iradio_flat-aero'
+        });
+    });
+
+</script>
+</html>

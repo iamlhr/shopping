@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>丁香菇凉购物网--你的专属购物网站</title>
+    <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <!--顶部区域-->
+    <div class="header">
+        <div class="pri-nav">
+            <div class="logo">
+                <h1>丁香Clove</h1>
+            </div>
+            <ul class="header-content">
+                <li><a href="#">在线商城</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">客户服务</a></li>
+                <li><a href="#">商家后台</a></li>
+                <li><a href="#">收藏夹</a></li>
+                <li><a href="#">商品分类</a></li>
+                <li><a href="#">网站导航</a></li>
+                <li><a href="#">签到有礼</a></li>
+                <li><a href="register.html" target="_blank">注册</a></li>
+            </ul>
+            <div class="login">
+                <i class="fa fa-user" aria-hidden="true" id="loginPanel"></i>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="sec-nav" id="sec_nav">
+            <div class="sec-nav-content">
+                <ul>
+                    <li><a href="index.html" class="orange-active">首页</a></li>
+                    <li><a href="goods.html">服饰搭配</a></li>
+                    <li><a href="">"丁香"系列</a></li>
+                    <li><a href="">女鞋包包</a></li>
+                    <li><a href="">男友运动</a></li>
+                    <li><a href="">品牌周边</a></li>
+                    <li><a href="">美妆个护</a></li>
+                    <li><a href="">全部</a></li>
+                    <li><a href="">服务</a></li>
+                    <li><a href="">家居电器</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="请输入你要搜索的商品"/>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--广告区域-->
+    <div class="banner">
+        <!--轮播-->
+        <div class="pri-banner">
+            <ul id="img_list" class="img-list">
+                <li><img src="img/img1.jpg?thumb=img/thumb-1.jpg" alt="1"/></li>
+                <li><img src="img/img2.jpg?thumb=img/thumb-2.jpg" alt="2"/></li>
+                <li><img src="img/img3.jpg?thumb=img/thumb-3.jpg" alt="3"/></li>
+                <li><img src="img/img4.jpg?thumb=img/thumb-4.jpg" alt="4"/></li>
+            </ul>
+        </div>
+        <!--丁香闪购-->
+        <div class="sec-banner">
+            <div class="sec-banner-header">
+                <div class="sec-banner-left">丁香闪购</div>
+            </div>
+            <ul class="sec-banner-content clear-f">
+                <li><a href="#">
+                    <div class="img">
+                        <img src="img/phone.jpg" alt=""/>
+                    </div>
+                    <p class="title">小米手机x86 银色</p>
+                    <p class="desc">让手机成为移动充电站</p>
+                    <p class="price"><span class="now">1600 元</span> &nbsp;<span class="yuan">2999 元</span></p>
+                </a></li>
+                <li><a href="#">
+                    <div class="img">
+                        <img src="img/good2.jpg" alt=""/>
+                    </div>
+                    <p class="title">奥洛菲 面膜套装</p>
+                    <p class="desc">水动力32片面膜组 补水</p>
+                    <p class="price"><span class="now">88 元</span> &nbsp;<span class="yuan">189 元</span></p>
+                </a></li>
+                <li><a href="#">
+                    <div class="img">
+                        <img src="img/good3.jpg" alt=""/>
+                    </div>
+                    <p class="title">迪奥Dior 双色双效唇膏</p>
+                    <p class="desc">口红润唇持久提亮</p>
+                    <p class="price"><span class="now">299 元</span> &nbsp;<span class="yuan">366 元</span></p>
+                </a></li>
+                <li><a href="#">
+                    <div class="img">
+                        <img src="img/good4.jpg" alt=""/>
+                    </div>
+                    <p class="title">美国 Milani 完美遮瑕粉底液</p>
+                    <p class="desc">完美遮瑕防水粉底+遮瑕膏二合一 </p>
+                    <p class="price"><span class="now">76 元</span> &nbsp;<span class="yuan">99 元</span></p>
+                </a></li>
+                <li><a href="#">
+                    <div class="img">
+                        <img src="img/good5.jpg" alt=""/>
+                    </div>
+                    <p class="title">麦包包【爆款】2018新品</p>
+                    <p class="desc">重现波士顿女包枕头包</p>
+                    <p class="price"><span class="now">180 元</span> &nbsp;<span class="yuan">399 元</span></p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--long-banner one-->
+    <div class="long-banner long-banner1"></div>
+
+    <!--content-->
+    <div class="s-content">
+        <div class="s-content-header clear-f">
+            <div class="s-content-header-left">
+                <span class="col"></span>
+                <div>内衣&配饰</div>
+            </div>
+            <div class="s-content-header-right">
+                <a href="#">更多 <i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="s-content2 clear-f">
+            <div class="s-content2-left">
+                <a href="#">
+                    <img src="img/left1.png" alt=""/>
+                </a>
+            </div>
+            <div class="s-content2-right">
+                <ul class="clear-f">
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good6.jpg" alt=""/>
+                        </div>
+                        <p class="title">整型文胸内衣</p>
+                        <p class="desc">无钢圈舒适全罩杯大码薄款调</p>
+                        <p class="price">89 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good7.jpg" alt=""/>
+                        </div>
+                        <p class="title">施华洛世奇</p>
+                        <p class="desc">恶魔之眼蓝色及多色晶莹项链</p>
+                        <p class="price">525 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good8.jpg" alt=""/>
+                        </div>
+                        <p class="title">黑天鹅系列</p>
+                        <p class="desc">黑天鹅晶莹项链/耳钉</p>
+                        <p class="price">459 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good9.jpg" alt=""/>
+                        </div>
+                        <p class="title">丹尼尔惠灵顿 手镯</p>
+                        <p class="desc">DW 玫瑰金色简约百搭开口大号</p>
+                        <p class="price">490 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good10.jpg" alt=""/>
+                        </div>
+                        <p class="title">剔透玲珑女士晶莹项链</p>
+                        <p class="desc">全网爆款 跳动的心</p>
+                        <p class="price">662 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good11.jpg" alt=""/>
+                        </div>
+                        <p class="title">运动睡眠内衣无钢圈文胸</p>
+                        <p class="desc">无痕睡眠 日常两穿</p>
+                        <p class="price">75 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good12.jpg" alt=""/>
+                        </div>
+                        <p class="title">shes茜子经典百搭简约布艺</p>
+                        <p class="desc">印花心形吊坠职业基础发圈</p>
+                        <p class="price">58 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good13.jpg" alt=""/>
+                        </div>
+                        <p class="title">梦芭蒂 2件装</p>
+                        <p class="desc">时尚光面轻盈透气舒适贴身</p>
+                        <p class="price">139 元</span></p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--long-banner two-->
+    <div class="long-banner long-banner2"></div>
+
+    <!--content-->
+    <div class="s-content">
+        <div class="s-content-header clear-f">
+            <div class="s-content-header-left">
+                <span class="col"></span>
+                <div>美妆&个护</div>
+            </div>
+            <div class="s-content-header-right">
+                <a href="#">更多 <i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="s-content2 clear-f">
+            <div class="s-content2-left" style="float: right">
+                <a href="#">
+                    <img src="img/left2.png" alt=""/>
+                </a>
+            </div>
+            <div class="s-content2-right" style="float: left">
+                <ul class="clear-f">
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good14.jpg" alt=""/>
+                        </div>
+                        <p class="title">UNNY 矿物卸妆水</p>
+                        <p class="desc">500ml/瓶 深层清洁</p>
+                        <p class="price">69 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good15.jpg" alt=""/>
+                        </div>
+                        <p class="title">滋润型礼盒 混合皮保湿补水</p>
+                        <p class="desc">优悦活颜弹润水乳</p>
+                        <p class="price">610 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good16.jpg" alt=""/>
+                        </div>
+                        <p class="title">去黑头 黑里透白冻膜</p>
+                        <p class="desc">粉刺黑头终结者</p>
+                        <p class="price">108 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good17.jpg" alt=""/>
+                        </div>
+                        <p class="title">贝德玛 舒妍多效洁肤液</p>
+                        <p class="desc">无需水洗的卸妆水</p>
+                        <p class="price">209 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good18.jpg" alt=""/>
+                        </div>
+                        <p class="title">YSL 圣罗兰 口红</p>
+                        <p class="desc">迷魅纯漾亮采方管</p>
+                        <p class="price">299 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good19.jpg" alt=""/>
+                        </div>
+                        <p class="title">韩国补水保湿药丸面膜</p>
+                        <p class="desc">快速补水3盒装</p>
+                        <p class="price">298 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good20.jpg" alt=""/>
+                        </div>
+                        <p class="title">MAC 子弹头口红</p>
+                        <p class="desc">润采诱光唇膏</p>
+                        <p class="price">158 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good21.jpg" alt=""/>
+                        </div>
+                        <p class="title">爱敬气垫 霜气垫</p>
+                        <p class="desc">Age20s精华遮瑕粉底 水润遮瑕</p>
+                        <p class="price">219 元</span></p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--long-banner three-->
+    <div class="long-banner long-banner3"></div>
+
+    <!--content-->
+    <div class="s-content">
+        <div class="s-content-header clear-f">
+            <div class="s-content-header-left">
+                <span class="col"></span>
+                <div>女鞋&包包</div>
+            </div>
+            <div class="s-content-header-right">
+                <a href="#">更多 <i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="s-content2 clear-f">
+            <div class="s-content2-left">
+                <a href="#">
+                    <img src="img/left3.png" alt=""/>
+                </a>
+            </div>
+            <div class="s-content2-right">
+                <ul class="clear-f">
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good22.jpg" alt=""/>
+                        </div>
+                        <p class="title">百思图 浅紫珍珠清新小白鞋</p>
+                        <p class="desc">珍珠装饰 百搭休闲</p>
+                        <p class="price">259 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good23.jpg" alt=""/>
+                        </div>
+                        <p class="title">百丽专柜同款单鞋 黑色</p>
+                        <p class="desc">羊绒皮粗高跟一字带</p>
+                        <p class="price">298 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good24.jpg" alt=""/>
+                        </div>
+                        <p class="title">百思图 女单鞋松糕鞋黑色</p>
+                        <p class="desc">牛皮休闲系带圆头粗中跟</p>
+                        <p class="price">189 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good27.jpg" alt=""/>
+                        </div>
+                        <p class="title">麦包包-英国Clous Krause</p>
+                        <p class="desc"> 经典花纹男女通用钥匙包</p>
+                        <p class="price">129 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good25.jpg" alt=""/>
+                        </div>
+                        <p class="title">新款百搭多肩带女包</p>
+                        <p class="desc">网红爆款 复古大包</p>
+                        <p class="price">99 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good26.jpg" alt=""/>
+                        </div>
+                        <p class="title">时尚简约百搭羊皮包</p>
+                        <p class="desc">休闲小香风菱格单链条包</p>
+                        <p class="price">189 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good28.jpg" alt=""/>
+                        </div>
+                        <p class="title">Skechers斯凯奇时尚拼接老爹鞋</p>
+                        <p class="desc">D'lites女鞋厚底熊猫鞋</p>
+                        <p class="price">529 元</span></p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="img">
+                            <img src="img/good29.jpg" alt=""/>
+                        </div>
+                        <p class="title">小卡夹卡包银行卡套</p>
+                        <p class="desc">牛皮女式 ROYALMAINE</p>
+                        <p class="price">26 元</span></p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--long-banner three-->
+    <div class="long-banner long-banner4"></div>
+
+    <!--person pj-->
+    <div class="person">
+        <h4>精选评论</h4>
+        <div class="person_x">
+            <div class="person_img">
+                <img src="img/photo1.jpg" alt="">
+            </div>
+            <div class="person_info">
+                <h3>HZJ</h3>
+                <h5>米家压力IH电饭煲</h5>
+                <p>包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接...</p>
+            </div>
+        </div>
+        <div class="person_x">
+            <div class="person_img">
+                <img src="img/photo2.jpg" alt="">
+            </div>
+            <div class="person_info">
+                <h3>酸小妞～！</h3>
+                <h5>米家车载空气净化器（USB车充版） 灰色</h5>
+                <p>外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一个大...</p>
+            </div>
+        </div>
+        <div class="person_x">
+            <div class="person_img">
+                <img src="img/photo3.jpg" alt="">
+            </div>
+            <div class="person_info">
+                <h3>DellLee</h3>
+                <h5>小米随身蓝牙音箱</h5>
+                <p>超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发...</p>
+            </div>
+        </div>
+        <div class="person_x">
+            <div class="person_img">
+                <img src="img/photo4.jpg" alt="">
+            </div>
+            <div class="person_info">
+                <h3>随风</h3>
+                <h5>米家小白智能摄像机</h5>
+                <p>样子好可爱，特别是转来转去时很有趣。让它休眠时它就会把头转过去背对着你了，唤醒它又会自动转回来。你叫...</p>
+            </div>
+        </div>
+        <div class="person_x">
+            <div class="person_img">
+                <img src="img/photo5.jpg" alt="">
+            </div>
+            <div class="person_info">
+                <h3>yinyin19891117</h3>
+                <h5>小米插线板</h5>
+                <p>东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</p>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="foot-content clear-f">
+            <ul class="clear-f">
+                <li>
+                    <ul class="ul-item">
+                        <li>订单服务</li>
+                        <li><a href="#">购买指南</a></li>
+                        <li><a href="#">支付方式</a></li>
+                        <li><a href="#">送货政策</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="ul-item">
+                        <li>帮助中心</li>
+                        <li><a href="#">账户管理</a></li>
+                        <li><a href="#">购物指南</a></li>
+                        <li><a href="#">订单操作</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="ul-item">
+                        <li>服务支持</li>
+                        <li><a href="#">售后政策</a></li>
+                        <li><a href="#">自助服务</a></li>
+                        <li><a href="#">相关下载</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="ul-item">
+                        <li>特色服务</li>
+                        <li><a href="#">F码通道</a></li>
+                        <li><a href="#">礼物码</a></li>
+                        <li><a href="#">防伪查询</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="ul-item">
+                        <li>线下门店</li>
+                        <li><a href="#">丁香之家</a></li>
+                        <li><a href="#">服务网点</a></li>
+                        <li><a href="#">授权体验店</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="ul-item">
+                        <li>关注我们</li>
+                        <li><a href="#">新浪微博</a></li>
+                        <li><a href="#">官方微信</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="foot-content-right">
+                <div class="foot-col-div">
+                    <p>400-200-6678</p>
+                    <p>周一至周日 8:00-18:00</p>
+                    <p>（仅收市话费）</p>
+                    <a href="#">联系客服</a>
+                </div>
+            </div>
+        </div>
+        <div class="foot-content1 clear-f">
+            <p>Copyright © 2018, Smartisan Digital Co., Ltd. All Rights Reserved.四川丁香Clove科技有限公司</p>
+            <p>川 ICP 备 14031720 号 - 1 川 ICP 证 141322 号 川公网安备 1113240502025474</p>
+        </div>
+    </div>
+
+    <!--mask-->
+    <div class="mask" id="mask"></div>
+
+    <!--loginQ-->
+    <div class="loginQ" id="loginQ">
+        <h2 class="title">Clove</h2>
+        <form id="loginForm">
+            <input type="text" placeholder="邮箱/手机号"/>
+            <input type="password" placeholder="密码"/>
+            <input type="button" value="登录">
+        </form>
+        <h4>还没有账号?<a href="register.html" target="_blank"> 点击注册</a></h4>
+    </div>
+
+    <!--toTop-->
+    <div id="to_top" class="to-top">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+</body>
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/jquery.terseBanner.min.js"></script>
+<script type="application/javascript" src="js/index.js"></script>
+</html>
