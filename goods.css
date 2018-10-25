@@ -1,0 +1,61 @@
+.sort{
+    width: 1226px;
+    height: 50px;
+    line-height: 60px;
+    margin: 10px auto;
+}
+
+.sort > a{
+    color: #616161;
+}
+
+.active{
+    color: #ff6700 !important;
+}
+
+.goods-content{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box{
+    float: left;
+    padding: 15px 0 0 15px;
+    cursor: pointer;
+}
+
+.box .pic{
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.pic:hover{
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+}
+
+.pic > p{
+    text-align: center;
+    margin-top: 12px;
+    width: 265px;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.price{
+    color: #ff6700;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.box img{
+    width: 265px;
+}

@@ -1,0 +1,387 @@
+
+.banner{
+    width: 1226px;
+    margin: 20px auto;
+}
+
+.banner > .pri-banner{
+    width: 1226px;
+    height: 556px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.pri-banner > .img-list{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-list > li{
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.img-list > li > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.on{
+    background: orange;
+}
+
+.sec-banner{
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.sec-banner>.sec-banner-header{
+    height: 45px;
+    padding: 11px 0;
+    box-sizing: border-box;
+}
+
+.sec-banner-left{
+    font-size: 22px;
+    color: #333;
+    font-weight: 200;
+}
+
+.sec-banner>.sec-banner-content{
+    text-align: center;
+    margin-top: 6px;
+}
+
+.sec-banner-content > li{
+    float: left;
+    width: 241px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.sec-banner-content>li:nth-child(2),
+.sec-banner-content>li:nth-child(3),
+.sec-banner-content>li:nth-child(4),
+.sec-banner-content>li:nth-child(5){
+    margin-left: 5px;
+}
+
+.sec-banner-content>li:nth-child(1){
+    border-top: 1px solid #e53935;
+}
+
+.sec-banner-content>li:nth-child(2){
+    border-top: 1px solid #ffac13;
+}
+
+.sec-banner-content>li:nth-child(3){
+    border-top: 1px solid #83c44e;
+}
+
+.sec-banner-content>li:nth-child(4){
+    border-top: 1px solid #2196f3;
+}
+
+.sec-banner-content>li:nth-child(5){
+    border-top: 1px solid #e53935;
+}
+
+.sec-banner-content a{
+    width: 100%;
+    height: 100%;
+    color: #b0b0b0;
+}
+
+.sec-banner-content .img{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sec-banner-content .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec-banner-content .title{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.sec-banner-content .desc{
+    margin-top: 10px;
+}
+
+.sec-banner-content .price{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.sec-banner-content .now{
+    color: #ff6709;
+}
+
+.sec-banner-content .yuan{
+    text-decoration: line-through;
+}
+
+.long-banner{
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.long-banner1{
+    background: url(../img/banner1.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.s-content{
+    width: 1226px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.s-content-header{
+    width: 100%;
+}
+
+.s-content-header-left{
+    float: left;
+    height: 58px;
+}
+
+.col{
+    display: inline-block;
+    width: 6px;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.s-content-header-left > div{
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: 19px;
+    color: #333;
+    font-weight: 200;
+    margin-left: 6px;
+}
+
+.s-content-header-right{
+    float: right;
+    height: 58px;
+    line-height: 58px;
+}
+
+.s-content-header-right > a{
+    font-size: 18px;
+    color: #333;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.s-content-header-right  .fa-chevron-right{
+    font-size: 16px;
+}
+
+.s-content2{
+    width: 100%;
+    margin-top: 6px;
+}
+
+.s-content2-left{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+
+.s-content2-left > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.s-content2-left > a > img{
+    width: 100%;
+    height: 100%;
+}
+
+.s-content2-right{
+    width: 978px;
+    float: right;
+}
+
+.s-content2-right>ul{
+    width: 992px;
+    margin: -14px 0 0 -14px;
+    box-sizing: border-box;
+}
+
+.s-content2-right > ul >li{
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-top: 14px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    transition: all .2s;
+    position: relative;
+    z-index: 1;
+    top:0;
+}
+
+.s-content2-right > ul >li:hover{
+    box-shadow: 0 0 0 0 #fff,4px 0 3px 0px #ddd,0 8px 20px 0px #ddd,-4px 0 3px 0px #ddd;
+    z-index: 2;
+    top:-6px;
+}
+
+.s-content2-right > ul >li > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.s-content2-right .img{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.s-content2-right .img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.s-content2-right .title{
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.s-content2-right .desc{
+    white-space: nowrap;
+    overflow: hidden;
+    color: #b0b0b0;
+    margin: 10px 10px 10px;
+}
+
+.s-content2-right .price{
+    color: #ff6700;
+}
+
+.long-banner2{
+    background: url(../img/banner2.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.long-banner3{
+    background: url(../img/banner3.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.long-banner4{
+    background: url(../img/banner4.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.person{
+    width: 1226px;
+    min-width: 1226px;
+    max-width: 1226px;
+    margin: 0 auto;
+    text-align: center;
+    color: #777;
+    margin-top: 60px;
+}
+
+.person>h4{
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.person .person_x{
+    display: inline-block;
+    width:230px;
+    height: 320px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.person .person_img{
+    width: 134px;
+    height: 134px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: 2;
+    border-radius:60px 0;
+    transition: all .5s;
+    box-sizing:border-box;
+    border: 1px solid #fff;
+}
+
+.person .person_x:hover .person_img{
+    border-radius: 50%;
+}
+
+.person .person_x img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    transition: all .3s;
+}
+
+.person .person_info{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 95px 0 0 0;
+    background: #fff;
+    box-sizing:border-box;
+    height: 230px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.person .person_info h3{
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.person .person_info h5{
+    padding-bottom: 5px;
+    color: #ff6700;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.person .person_info p{
+    padding-bottom: 5px;
+    width: 180px;
+    margin: 0 auto;
+    line-height: 22px;
+}
